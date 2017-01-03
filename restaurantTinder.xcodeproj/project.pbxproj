@@ -13,6 +13,7 @@
 		8D4162301E0EDCD500ABDC6E /* restaurantTinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D41622E1E0EDCD500ABDC6E /* restaurantTinder.xcdatamodeld */; };
 		8D4162321E0EDCD500ABDC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4162311E0EDCD500ABDC6E /* Assets.xcassets */; };
 		8D4162351E0EDCD500ABDC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4162331E0EDCD500ABDC6E /* LaunchScreen.storyboard */; };
+		8D73208E1E1A01A8001A9E44 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73208D1E1A01A8001A9E44 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D4162311E0EDCD500ABDC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4162341E0EDCD500ABDC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4162361E0EDCD500ABDC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D73208D1E1A01A8001A9E44 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8D4162271E0EDCD500ABDC6E /* AppDelegate.swift */,
 				8D4162291E0EDCD500ABDC6E /* ViewController.swift */,
 				8D41622B1E0EDCD500ABDC6E /* Main.storyboard */,
+				8D73208D1E1A01A8001A9E44 /* ListViewController.swift */,
 				8D4162311E0EDCD500ABDC6E /* Assets.xcassets */,
 				8D4162331E0EDCD500ABDC6E /* LaunchScreen.storyboard */,
 				8D4162361E0EDCD500ABDC6E /* Info.plist */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					8D4162231E0EDCD500ABDC6E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9Y3JG6236H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +145,7 @@
 			files = (
 				8D41622A1E0EDCD500ABDC6E /* ViewController.swift in Sources */,
 				8D4162281E0EDCD500ABDC6E /* AppDelegate.swift in Sources */,
+				8D73208E1E1A01A8001A9E44 /* ListViewController.swift in Sources */,
 				8D4162301E0EDCD500ABDC6E /* restaurantTinder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y3JG6236H;
 				INFOPLIST_FILE = restaurantTinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chapin.restaurantTinder;
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y3JG6236H;
 				INFOPLIST_FILE = restaurantTinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chapin.restaurantTinder;
@@ -301,6 +308,7 @@
 				8D41623B1E0EDCD500ABDC6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
